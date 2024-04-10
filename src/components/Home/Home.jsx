@@ -4,7 +4,9 @@ const Home = () => {
 	const msg = 'Kawaljeet';
 	return (
 		<>
-			<Header name={msg}></Header>
+			<div>
+				<Header name={msg}></Header>
+			</div>
 		</>
 	);
 };
