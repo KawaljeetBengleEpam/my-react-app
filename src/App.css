@@ -28,6 +28,14 @@
   color: #61dafb;
 }
 
+.left-menu-bar {
+  color: #020a0c;
+}
+
+.main-page {
+  background-color: whitesmoke;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
