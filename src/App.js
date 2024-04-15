@@ -7,13 +7,11 @@ import Home from './components/Home/Home';
 class App extends Component {
 	render() {
 		return (
-			// <div>
-			// 	<Home />
-			// </div>
 			<Router>
 				<LeftMenuBar />
 				<Routes>
 					<Route exact path='/' element={<Home />} />
+					<Route exact path='/Home' element={<Home />} />
 					<Route path='/MainPage' element={<MainPage />} />
 					{/* Add more routes as needed */}
 				</Routes>
