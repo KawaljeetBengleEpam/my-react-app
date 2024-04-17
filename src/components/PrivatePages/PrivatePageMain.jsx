@@ -1,8 +1,8 @@
-// MainPage.js
+// PrivatePageMain.js
 import React from 'react';
 import HeaderLogo from '../../assets/headerLogo.jpeg';
 
-const MainPage = () => {
+const PrivatePageMain = () => {
 	return (
 		<div className='main-page'>
 			<img src={HeaderLogo} alt='Main' />
@@ -11,4 +11,4 @@ const MainPage = () => {
 	);
 };
 
-export default MainPage;
+export default PrivatePageMain;
